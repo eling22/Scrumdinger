@@ -29,5 +29,6 @@ struct CardView_Previews: PreviewProvider {
         CardView(scrum: scrum)
             .background(scrum.theme.mainColor)
             .previewLayout(.fixed(width: 400, height: 60))
+
     }
 }
