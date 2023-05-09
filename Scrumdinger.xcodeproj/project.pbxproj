@@ -32,6 +32,7 @@
 		71D1F12329F6546B0081DC76 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1F12229F6546B0081DC76 /* CardView.swift */; };
 		71E888D32A03B81A0015365F /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E888D22A03B81A0015365F /* MeetingHeaderView.swift */; };
 		71E888D52A08E2A90015365F /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E888D42A08E2A90015365F /* ScrumStore.swift */; };
+		71E888D72A09F8720015365F /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E888D62A09F8720015365F /* ErrorWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		71D1F12229F6546B0081DC76 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		71E888D22A03B81A0015365F /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		71E888D42A08E2A90015365F /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		71E888D62A09F8720015365F /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				71D1F12029F653CC0081DC76 /* DailyScrum.swift */,
 				7107EFB02A052BC3003B60D3 /* History.swift */,
 				71E888D42A08E2A90015365F /* ScrumStore.swift */,
+				71E888D62A09F8720015365F /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				71E888D32A03B81A0015365F /* MeetingHeaderView.swift in Sources */,
 				71E888D52A08E2A90015365F /* ScrumStore.swift in Sources */,
 				7107EFAA2A04D907003B60D3 /* MeetingFooterView.swift in Sources */,
+				71E888D72A09F8720015365F /* ErrorWrapper.swift in Sources */,
 				7107EF9C29FC2245003B60D3 /* DetailEditView.swift in Sources */,
 				7107EF9829F8130E003B60D3 /* TrailingIconLabelStyle.swift in Sources */,
 				7107EFAF2A04F72B003B60D3 /* NewScrumSheet.swift in Sources */,
@@ -520,6 +524,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -548,6 +553,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
